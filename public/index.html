@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Two-way</title>
+    <link rel="stylesheet" href="bootstrap.css">
+</head>
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col-3">
+                <h3 class="mt-4">Latest Messages</h3>
+                <div id="all-messages">
+
+                </div>
+            </div>
+            <div class="col-9">
+                <h1 class="display4 mt-4">Welcome to our App</h1>
+                <p>
+                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. In praesentium repudiandae, adipisci quas
+                    mollitia facere non eaque molestias cum, voluptatum, unde asperiores optio voluptatibus ut nulla
+                    iusto voluptate? Nesciunt ipsam explicabo, sed expedita minima eum! Atque expedita facilis quas
+                    laudantium id vitae excepturi accusantium asperiores minus, magnam nesciunt culpa reprehenderit
+                    similique sit at quidem qui quasi molestiae? Harum, nulla possimus!
+                <div class="row">
+                    <div class="col-6">
+                        <form action="/messages" method="post">
+                            <input id="email" class="form-control" type="email" name="email" placeholder="Email" />
+                            <br />
+                            <textarea class="form-control" name="message" placeholder="Message"
+                                id="msg"></textarea><br />
+                            <button id="sub" class="btn btn-primary">Send</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+
+</html>
